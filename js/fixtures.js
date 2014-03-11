@@ -1,4 +1,4 @@
-App.PROJECT_FIXTURES = [{
+App.Project.FIXTURES = [{
   id: '1',
   name: "Discourse",
   description: "Discourse is the 100% open source, next-generation discussion platform built for the next decade of the Internet",
@@ -35,7 +35,3 @@ App.PROJECT_FIXTURES = [{
   url: "http://www.zendesk.com/",
   isArchived: false
 }];
-
-App.PROJECT_FIXTURES = App.PROJECT_FIXTURES.map(function(project) {
-  return App.Project.create(project);
-});
